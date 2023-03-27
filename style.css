@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Overpass', sans-serif;
+}
+.list {
+    list-style-type: none;
+}
+.body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-box , .Thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    max-width: 400px;
+}
+.main-box img {
+    background-color: hsl(217, 22%, 26%);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.main-box h2 {
+    color: white;
+    margin: 2rem 0 1rem;
+}
+.main-box p {
+    color: hsl(0, 17%, 95%);
+    margin-bottom: 1rem;
+}
+.main-box .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main-box .list .btn {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(212, 9%, 34%);
+    color: white;
+    padding-top: 0.2rem;
+}
+.main-box .list .btn:hover {
+    background-color:  hsl(25, 97%, 53%);
+}
+.main-box .btn:hover:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+.btn-submit {
+    background-color: orange;
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+}
+
+.hidden {
+    display: none;
+
+}
+.Thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+.Thank-you p.men {
+    background-color: hsl(212, 20%, 13%);
+    color:hsl(25, 97%, 53%);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.Thank-you h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+.Thank-you p{
+    color: hsl(213, 19%, 88%);
+    margin-bottom: 2rem;
+}
