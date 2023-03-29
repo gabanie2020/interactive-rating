@@ -7,7 +7,7 @@
 .list {
     list-style-type: none;
 }
-.body {
+ .body {
     background-color: hsl(216, 12%, 8%);
     margin: 1.5rem;
     display: flex;
@@ -73,13 +73,9 @@
 }
 .btn-submit:hover {
     background-color: white;
-    color:hsl(25, 97%, 53%) ;
+    color:hsl(25, 97%, 53%);
 }
 
-.hidden {
-    display: none;
-
-}
 .Thank-you{
     display: flex;
     flex-direction: column;
@@ -107,4 +103,15 @@
 .Thank-you p{
     color: hsl(213, 19%, 88%);
     margin-bottom: 2rem;
+}
+.hidden {
+    display: none;
+
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45% ,44%);
 }
