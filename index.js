@@ -3,7 +3,7 @@ const ThankyouContainer = document.querySelector(".Thank-you")
 const submitButton = document.getElementById("submit")
 const rateAgain = document.getElementById("rate-again")
 const rating = document.getElementById("rating")
-const rates = document.querySelectorAll("btn")
+const rates = document.querySelectorAll(".btn")
 
 submitButton.addEventListener("click", () => {
   ThankyouContainer.classList.remove ("hidden")
@@ -18,5 +18,6 @@ rateAgain.addEventListener("click", () => {
   rates.forEach((rate) => {
     rate.addEventListener("click", () =>{
         console.log(rate.innerHTML)
+        rating.innerHTML = rate.innerHTML 
     } )
   })

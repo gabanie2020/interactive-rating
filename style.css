@@ -17,6 +17,7 @@
     min-height: 100vh;
 }
 .main-box , .Thank-you {
+    margin: 5% auto;
     background-color: hsl(213, 19%, 18%);
     padding: 1.5rem;
     border-radius: 0.6rem;
